@@ -1,0 +1,43 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Open Sans, sans-serif;
+}
+header{
+  height: 110px;
+  background: #c4d3d5;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+h1{
+  color: #333333;
+  font-size: 3em;
+}
+nav {
+  background: #24292e;
+  color: #fff;
+  font-size: 1.5em;
+}
+ul{
+  margin: 0 auto;
+  padding: 0 10%;
+  list-style-type: none;
+}
+ul li{
+  display: inline-block;
+  padding: 6px;
+  background: rgba(0,0,0,0.4);
+  vertical-align: top;
+}
+p{
+  margin: 0 auto;
+  padding: 0 10%;
+  font-size: 2em;
+}
+.fixed-nav{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
