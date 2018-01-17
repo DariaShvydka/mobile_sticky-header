@@ -7,17 +7,22 @@ header{
   height: 110px;
   background: #c4d3d5;
   display: flex;
-justify-content: center;
-align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 h1{
   color: #333333;
   font-size: 3em;
 }
+#main-nav, .nav-wrapper {
+  height:53px;
+}
 nav {
   background: #24292e;
   color: #fff;
-  font-size: 1.5em;
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
 }
 ul{
   margin: 0 auto;
@@ -30,9 +35,11 @@ ul li{
   background: rgba(0,0,0,0.4);
   vertical-align: top;
 }
+.wrapper {
+  padding: 30px 10%;
+}
 p{
   margin: 0 auto;
-  padding: 0 10%;
   font-size: 2em;
 }
 .fixed-nav{
@@ -40,4 +47,25 @@ p{
   position: fixed;
   top: 0;
   left: 0;
+  -webkit-transform: translateZ(0);
 }
+
+/*Animation */
+
+/*.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.fadeInDown {
+  animation-name: fadeInDown;
+}*/
